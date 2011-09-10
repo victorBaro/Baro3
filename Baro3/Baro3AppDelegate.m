@@ -24,6 +24,10 @@
     return YES;
 }
 
+- (void) animationDidStart:(CAAnimation *)upRotation{
+        
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     /*

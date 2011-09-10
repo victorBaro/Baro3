@@ -7,7 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import <CoreGraphics/CoreGraphics.h>
 
-@interface Baro3ViewController : UIViewController
+@interface Baro3ViewController : UIViewController {
+    CALayer *upNumber;
+    CALayer *downNumber;
+    CALayer *flipNumber1;
+    CALayer *flipNumber2;
+    int i;
+
+}
+
+- (void)suma;
+- (IBAction)sumaAhora:(id)sender;
+
+
 
 @end

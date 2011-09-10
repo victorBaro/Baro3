@@ -23,6 +23,27 @@
 		4225B396141A821C00DAEBA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4225B394141A821C00DAEBA7 /* InfoPlist.strings */; };
 		4225B398141A821C00DAEBA7 /* Baro3Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4225B397141A821C00DAEBA7 /* Baro3Tests.h */; };
 		4225B39A141A821C00DAEBA7 /* Baro3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4225B399141A821C00DAEBA7 /* Baro3Tests.m */; };
+		4225B3A4141A855800DAEBA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4225B3A3141A855800DAEBA7 /* QuartzCore.framework */; };
+		42913D19141C0BA2000DE924 /* inf0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D05141C0BA2000DE924 /* inf0@2x.png */; };
+		42913D1A141C0BA2000DE924 /* inf1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D06141C0BA2000DE924 /* inf1@2x.png */; };
+		42913D1B141C0BA2000DE924 /* inf2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D07141C0BA2000DE924 /* inf2@2x.png */; };
+		42913D1C141C0BA2000DE924 /* inf3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D08141C0BA2000DE924 /* inf3@2x.png */; };
+		42913D1D141C0BA2000DE924 /* inf4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D09141C0BA2000DE924 /* inf4@2x.png */; };
+		42913D1E141C0BA2000DE924 /* inf5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D0A141C0BA2000DE924 /* inf5@2x.png */; };
+		42913D1F141C0BA2000DE924 /* inf6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D0B141C0BA2000DE924 /* inf6@2x.png */; };
+		42913D20141C0BA2000DE924 /* inf7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D0C141C0BA2000DE924 /* inf7@2x.png */; };
+		42913D21141C0BA2000DE924 /* inf8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D0D141C0BA2000DE924 /* inf8@2x.png */; };
+		42913D22141C0BA2000DE924 /* inf9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D0E141C0BA2000DE924 /* inf9@2x.png */; };
+		42913D23141C0BA2000DE924 /* sup0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D0F141C0BA2000DE924 /* sup0@2x.png */; };
+		42913D24141C0BA2000DE924 /* sup1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D10141C0BA2000DE924 /* sup1@2x.png */; };
+		42913D25141C0BA2000DE924 /* sup2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D11141C0BA2000DE924 /* sup2@2x.png */; };
+		42913D26141C0BA2000DE924 /* sup3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D12141C0BA2000DE924 /* sup3@2x.png */; };
+		42913D27141C0BA2000DE924 /* sup4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D13141C0BA2000DE924 /* sup4@2x.png */; };
+		42913D28141C0BA2000DE924 /* sup5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D14141C0BA2000DE924 /* sup5@2x.png */; };
+		42913D29141C0BA2000DE924 /* sup6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D15141C0BA2000DE924 /* sup6@2x.png */; };
+		42913D2A141C0BA2000DE924 /* sup7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D16141C0BA2000DE924 /* sup7@2x.png */; };
+		42913D2B141C0BA2000DE924 /* sup8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D17141C0BA2000DE924 /* sup8@2x.png */; };
+		42913D2C141C0BA2000DE924 /* sup9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42913D18141C0BA2000DE924 /* sup9@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +61,43 @@
 		4225B369141A821C00DAEBA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4225B36B141A821C00DAEBA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4225B36D141A821C00DAEBA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4225B371141A821C00DAEBA7 /* Baro3-Info.plist */ = {isa = PBXFileReference; path = "Baro3-Info.plist"; sourceTree = "<group>"; };
+		4225B371141A821C00DAEBA7 /* Baro3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Baro3-Info.plist"; sourceTree = "<group>"; };
 		4225B373141A821C00DAEBA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4225B375141A821C00DAEBA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4225B377141A821C00DAEBA7 /* Baro3-Prefix.pch */ = {isa = PBXFileReference; path = "Baro3-Prefix.pch"; sourceTree = "<group>"; };
-		4225B378141A821C00DAEBA7 /* Baro3AppDelegate.h */ = {isa = PBXFileReference; path = Baro3AppDelegate.h; sourceTree = "<group>"; };
+		4225B377141A821C00DAEBA7 /* Baro3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Baro3-Prefix.pch"; sourceTree = "<group>"; };
+		4225B378141A821C00DAEBA7 /* Baro3AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Baro3AppDelegate.h; sourceTree = "<group>"; };
 		4225B379141A821C00DAEBA7 /* Baro3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Baro3AppDelegate.m; sourceTree = "<group>"; };
 		4225B37C141A821C00DAEBA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		4225B37E141A821C00DAEBA7 /* Baro3ViewController.h */ = {isa = PBXFileReference; path = Baro3ViewController.h; sourceTree = "<group>"; };
+		4225B37E141A821C00DAEBA7 /* Baro3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Baro3ViewController.h; sourceTree = "<group>"; };
 		4225B37F141A821C00DAEBA7 /* Baro3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Baro3ViewController.m; sourceTree = "<group>"; };
 		4225B382141A821C00DAEBA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Baro3ViewController.xib; sourceTree = "<group>"; };
 		4225B389141A821C00DAEBA7 /* Baro3Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Baro3Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4225B38A141A821C00DAEBA7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		4225B393141A821C00DAEBA7 /* Baro3Tests-Info.plist */ = {isa = PBXFileReference; path = "Baro3Tests-Info.plist"; sourceTree = "<group>"; };
+		4225B393141A821C00DAEBA7 /* Baro3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Baro3Tests-Info.plist"; sourceTree = "<group>"; };
 		4225B395141A821C00DAEBA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4225B397141A821C00DAEBA7 /* Baro3Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Baro3Tests.h; sourceTree = "<group>"; };
 		4225B399141A821C00DAEBA7 /* Baro3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Baro3Tests.m; sourceTree = "<group>"; };
+		4225B3A3141A855800DAEBA7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		42913D05141C0BA2000DE924 /* inf0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inf0@2x.png"; sourceTree = "<group>"; };
+		42913D06141C0BA2000DE924 /* inf1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inf1@2x.png"; sourceTree = "<group>"; };
+		42913D07141C0BA2000DE924 /* inf2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inf2@2x.png"; sourceTree = "<group>"; };
+		42913D08141C0BA2000DE924 /* inf3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inf3@2x.png"; sourceTree = "<group>"; };
+		42913D09141C0BA2000DE924 /* inf4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inf4@2x.png"; sourceTree = "<group>"; };
+		42913D0A141C0BA2000DE924 /* inf5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inf5@2x.png"; sourceTree = "<group>"; };
+		42913D0B141C0BA2000DE924 /* inf6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inf6@2x.png"; sourceTree = "<group>"; };
+		42913D0C141C0BA2000DE924 /* inf7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inf7@2x.png"; sourceTree = "<group>"; };
+		42913D0D141C0BA2000DE924 /* inf8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inf8@2x.png"; sourceTree = "<group>"; };
+		42913D0E141C0BA2000DE924 /* inf9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inf9@2x.png"; sourceTree = "<group>"; };
+		42913D0F141C0BA2000DE924 /* sup0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sup0@2x.png"; sourceTree = "<group>"; };
+		42913D10141C0BA2000DE924 /* sup1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sup1@2x.png"; sourceTree = "<group>"; };
+		42913D11141C0BA2000DE924 /* sup2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sup2@2x.png"; sourceTree = "<group>"; };
+		42913D12141C0BA2000DE924 /* sup3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sup3@2x.png"; sourceTree = "<group>"; };
+		42913D13141C0BA2000DE924 /* sup4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sup4@2x.png"; sourceTree = "<group>"; };
+		42913D14141C0BA2000DE924 /* sup5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sup5@2x.png"; sourceTree = "<group>"; };
+		42913D15141C0BA2000DE924 /* sup6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sup6@2x.png"; sourceTree = "<group>"; };
+		42913D16141C0BA2000DE924 /* sup7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sup7@2x.png"; sourceTree = "<group>"; };
+		42913D17141C0BA2000DE924 /* sup8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sup8@2x.png"; sourceTree = "<group>"; };
+		42913D18141C0BA2000DE924 /* sup9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sup9@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4225B3A4141A855800DAEBA7 /* QuartzCore.framework in Frameworks */,
 				4225B36A141A821C00DAEBA7 /* UIKit.framework in Frameworks */,
 				4225B36C141A821C00DAEBA7 /* Foundation.framework in Frameworks */,
 				4225B36E141A821C00DAEBA7 /* CoreGraphics.framework in Frameworks */,
@@ -105,6 +148,7 @@
 		4225B368141A821C00DAEBA7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4225B3A3141A855800DAEBA7 /* QuartzCore.framework */,
 				4225B369141A821C00DAEBA7 /* UIKit.framework */,
 				4225B36B141A821C00DAEBA7 /* Foundation.framework */,
 				4225B36D141A821C00DAEBA7 /* CoreGraphics.framework */,
@@ -123,6 +167,7 @@
 				4225B37F141A821C00DAEBA7 /* Baro3ViewController.m */,
 				4225B381141A821C00DAEBA7 /* Baro3ViewController.xib */,
 				4225B370141A821C00DAEBA7 /* Supporting Files */,
+				42913CF8141BE9E3000DE924 /* Images */,
 			);
 			path = Baro3;
 			sourceTree = "<group>";
@@ -155,6 +200,33 @@
 				4225B394141A821C00DAEBA7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42913CF8141BE9E3000DE924 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				42913D05141C0BA2000DE924 /* inf0@2x.png */,
+				42913D06141C0BA2000DE924 /* inf1@2x.png */,
+				42913D07141C0BA2000DE924 /* inf2@2x.png */,
+				42913D08141C0BA2000DE924 /* inf3@2x.png */,
+				42913D09141C0BA2000DE924 /* inf4@2x.png */,
+				42913D0A141C0BA2000DE924 /* inf5@2x.png */,
+				42913D0B141C0BA2000DE924 /* inf6@2x.png */,
+				42913D0C141C0BA2000DE924 /* inf7@2x.png */,
+				42913D0D141C0BA2000DE924 /* inf8@2x.png */,
+				42913D0E141C0BA2000DE924 /* inf9@2x.png */,
+				42913D0F141C0BA2000DE924 /* sup0@2x.png */,
+				42913D10141C0BA2000DE924 /* sup1@2x.png */,
+				42913D11141C0BA2000DE924 /* sup2@2x.png */,
+				42913D12141C0BA2000DE924 /* sup3@2x.png */,
+				42913D13141C0BA2000DE924 /* sup4@2x.png */,
+				42913D14141C0BA2000DE924 /* sup5@2x.png */,
+				42913D15141C0BA2000DE924 /* sup6@2x.png */,
+				42913D16141C0BA2000DE924 /* sup7@2x.png */,
+				42913D17141C0BA2000DE924 /* sup8@2x.png */,
+				42913D18141C0BA2000DE924 /* sup9@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +299,26 @@
 				4225B374141A821C00DAEBA7 /* InfoPlist.strings in Resources */,
 				4225B37D141A821C00DAEBA7 /* MainWindow.xib in Resources */,
 				4225B383141A821C00DAEBA7 /* Baro3ViewController.xib in Resources */,
+				42913D19141C0BA2000DE924 /* inf0@2x.png in Resources */,
+				42913D1A141C0BA2000DE924 /* inf1@2x.png in Resources */,
+				42913D1B141C0BA2000DE924 /* inf2@2x.png in Resources */,
+				42913D1C141C0BA2000DE924 /* inf3@2x.png in Resources */,
+				42913D1D141C0BA2000DE924 /* inf4@2x.png in Resources */,
+				42913D1E141C0BA2000DE924 /* inf5@2x.png in Resources */,
+				42913D1F141C0BA2000DE924 /* inf6@2x.png in Resources */,
+				42913D20141C0BA2000DE924 /* inf7@2x.png in Resources */,
+				42913D21141C0BA2000DE924 /* inf8@2x.png in Resources */,
+				42913D22141C0BA2000DE924 /* inf9@2x.png in Resources */,
+				42913D23141C0BA2000DE924 /* sup0@2x.png in Resources */,
+				42913D24141C0BA2000DE924 /* sup1@2x.png in Resources */,
+				42913D25141C0BA2000DE924 /* sup2@2x.png in Resources */,
+				42913D26141C0BA2000DE924 /* sup3@2x.png in Resources */,
+				42913D27141C0BA2000DE924 /* sup4@2x.png in Resources */,
+				42913D28141C0BA2000DE924 /* sup5@2x.png in Resources */,
+				42913D29141C0BA2000DE924 /* sup6@2x.png in Resources */,
+				42913D2A141C0BA2000DE924 /* sup7@2x.png in Resources */,
+				42913D2B141C0BA2000DE924 /* sup8@2x.png in Resources */,
+				42913D2C141C0BA2000DE924 /* sup9@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +532,7 @@
 				4225B39F141A821C00DAEBA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4225B3A0141A821C00DAEBA7 /* Build configuration list for PBXNativeTarget "Baro3Tests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +541,7 @@
 				4225B3A2141A821C00DAEBA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
