@@ -160,8 +160,8 @@
     downRotation.fillMode = kCAFillModeBackwards;
     flipNumber2.hidden = NO;
     [flipNumber2 addAnimation:downRotation forKey:@"transform"];
-    sleep(1);
-    downNumber.contents = flipNumber2.contents;
+    
+    //downNumber.contents = flipNumber2.contents;
     
     
 }
@@ -176,8 +176,8 @@
     NSString *upFront = [[NSString alloc] initWithFormat:@"sup%d.png",i-1];
     flipNumber1.contents = (id) [UIImage imageNamed:upFront].CGImage;
     
-    //NSString *downFront = [[NSString alloc] initWithFormat:@"inf%d.png",i-1];
-    //downNumber.contents = (id) [UIImage imageNamed:downFront].CGImage;
+    NSString *downFront = [[NSString alloc] initWithFormat:@"inf%d.png",i-1];
+    downNumber.contents = (id) [UIImage imageNamed:downFront].CGImage;
     
     
     NSString *downBack = [[NSString alloc] initWithFormat:@"inf%d.png",i];
