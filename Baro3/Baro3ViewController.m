@@ -158,36 +158,44 @@
     downRotation.beginTime = CACurrentMediaTime() + upRotation.duration;
     //Con la siguiente frase decimos que queremos que la animación se congele en su estado inicial.
     downRotation.fillMode = kCAFillModeBackwards;
+    downRotation.delegate = self;
     flipNumber2.hidden = NO;
     [flipNumber2 addAnimation:downRotation forKey:@"transform"];
     
-    //downNumber.contents = flipNumber2.contents;
-    
-    
 }
 
+
+
+- (void) animationDidStop:(CAAnimation *)anim finished:(BOOL)flag{
+    downNumber.contents = flipNumber2.contents;
+    flipNumber1.contents = upNumber.contents;
+}
+
+
+
+
 -(IBAction)sumaAhora:(id)sender{
-    //flipNumber2.hidden = YES;
     
     i = i+1;
+    
+    if (i<=9) {
     NSString *upBack = [[NSString alloc] initWithFormat:@"sup%d.png",i];
     upNumber.contents = (id) [UIImage imageNamed:upBack].CGImage;
-    
-    NSString *upFront = [[NSString alloc] initWithFormat:@"sup%d.png",i-1];
-    flipNumber1.contents = (id) [UIImage imageNamed:upFront].CGImage;
-    
-    NSString *downFront = [[NSString alloc] initWithFormat:@"inf%d.png",i-1];
-    downNumber.contents = (id) [UIImage imageNamed:downFront].CGImage;
     
     
     NSString *downBack = [[NSString alloc] initWithFormat:@"inf%d.png",i];
     flipNumber2.contents = (id) [UIImage imageNamed:downBack].CGImage;
+    } else{
+        i=0;
+        NSString *upBack = [[NSString alloc] initWithFormat:@"sup%d.png",i];
+        upNumber.contents = (id) [UIImage imageNamed:upBack].CGImage;
+        
+        
+        NSString *downBack = [[NSString alloc] initWithFormat:@"inf%d.png",i];
+        flipNumber2.contents = (id) [UIImage imageNamed:downBack].CGImage;
+    }
 
     [self suma];
-    
-    [upBack release];
-    [upFront release];
-    [downBack release];
 
 }
 
