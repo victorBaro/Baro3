@@ -32,7 +32,7 @@
     upNumber.bounds = CGRectMake(0.0, 0.0, 100.0, 100.0);
     upNumber.backgroundColor = [[UIColor blackColor] CGColor];
     upNumber.anchorPoint = CGPointMake(0.0, 1.0);
-    upNumber.position = CGPointMake(([[self view]bounds].size.width/2)-50.0, ([[self view]bounds].size.height/3.0)+50.0);
+    upNumber.position = CGPointMake(([[self view]bounds].size.width/2)-50.0, ([[self view]bounds].size.height/3.0)+5);
     upNumber.cornerRadius = 10.0;
     upNumber.borderWidth = 2.0;
     upNumber.borderColor =[[UIColor blackColor] CGColor];
@@ -49,7 +49,7 @@
     flipNumber1.bounds = CGRectMake(0.0, 0.0, 100.0, 100.0);
     flipNumber1.backgroundColor = [[UIColor blackColor] CGColor];
     flipNumber1.anchorPoint = CGPointMake(0.0, 1.0);
-    flipNumber1.position = CGPointMake(([[self view]bounds].size.width/2)-50.0, ([[self view]bounds].size.height/3.0)+50.0);
+    flipNumber1.position = CGPointMake(([[self view]bounds].size.width/2)-50.0, ([[self view]bounds].size.height/3.0)+5);
     flipNumber1.cornerRadius = 10.0;
     flipNumber1.borderWidth = 2.0;
     flipNumber1.borderColor =[[UIColor blackColor] CGColor];
@@ -70,7 +70,7 @@
     downNumber.bounds = CGRectMake(0.0, 0.0, 100.0, 100.0);
     downNumber.backgroundColor = [[UIColor blackColor] CGColor];
     downNumber.anchorPoint = CGPointMake(0.0, 0.0);
-    downNumber.position = CGPointMake(([[self view]bounds].size.width/2)-50.0, ([[self view]bounds].size.height/3.0)+50.0);
+    downNumber.position = CGPointMake(([[self view]bounds].size.width/2)-50.0, ([[self view]bounds].size.height/3.0)+5);
     downNumber.cornerRadius = 10.0;
     downNumber.borderWidth = 2.0;
     downNumber.borderColor =[[UIColor blackColor] CGColor];
@@ -86,7 +86,7 @@
     flipNumber2.bounds = CGRectMake(0.0, 0.0, 100.0, 100.0);
     flipNumber2.backgroundColor = [[UIColor blackColor] CGColor];
     flipNumber2.anchorPoint = CGPointMake(0.0, 0.0);
-    flipNumber2.position = CGPointMake(([[self view]bounds].size.width/2)-50.0, ([[self view]bounds].size.height/3.0)+50.0);
+    flipNumber2.position = CGPointMake(([[self view]bounds].size.width/2)-50.0, ([[self view]bounds].size.height/3.0)+5);
     flipNumber2.cornerRadius = 10.0;
     flipNumber2.borderWidth = 2.0;
     flipNumber2.borderColor =[[UIColor blackColor] CGColor];
